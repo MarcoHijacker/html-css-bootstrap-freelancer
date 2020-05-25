@@ -1,0 +1,23 @@
+/* Custom CSS Bootstrap Freelancer Page */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* regole di debug */
+[class*="col-"] {
+  height: 100%;
+  border: solid 1px #000;
+}
+
+.row {
+  height: 100px;
+  background-color: pink;
+}
+
+section {
+  /* padding: 0 10%; */
+  margin-bottom: 40px;
+}
