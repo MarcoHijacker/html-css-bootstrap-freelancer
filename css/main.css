@@ -9,12 +9,12 @@
 /* regole di debug */
 [class*="col-"] {
   height: 100%;
-  border: solid 1px #000;
+  border: solid 1px orange;
+  background-color: lightgray;
 }
 
 .row {
   height: 100px;
-  background-color: pink;
 }
 
 section {
