@@ -82,7 +82,7 @@ header .navbar-default {
   text-align: center;
 }
 #about {
-  height: 500px;
+  min-height: 500px;
   background-color: #1abc9c;
 }
 .about-title {
@@ -95,17 +95,22 @@ header .navbar-default {
 .about-left, .about-right {
   font-size: 18px;
   color: white;
+  margin-bottom: 20px;
 }
 .button-download {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.button-download span {
   border: solid 2px white;
   border-radius: 5px;
   background-color: transparent;
   font-size: 18px;
   color: white;
-  text-align: center;
-  margin: 30px 450px;
+  margin: 30px 0;
   padding: 20px;
   font-weight: 400;
+  display: inline-block;
 }
 /* Footer */
 footer {
