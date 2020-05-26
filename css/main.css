@@ -81,11 +81,32 @@ header .navbar-default {
 .img-box {
   text-align: center;
 }
-.about {
+#about {
   height: 500px;
   background-color: #1abc9c;
 }
-
+.about-title {
+  font-size: 46px;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+}
+.about-left, .about-right {
+  font-size: 18px;
+  color: white;
+}
+.button-download {
+  border: solid 2px white;
+  border-radius: 5px;
+  background-color: transparent;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  margin: 30px 450px;
+  padding: 20px;
+  font-weight: 400;
+}
 /* Footer */
 footer {
   background-color: red;
