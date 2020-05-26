@@ -43,6 +43,7 @@ header .navbar-default {
 }
 
 /* Main */
+/* Sezione Jumbotron */
 .jumbotron {
   height: 600px;
   background-color: #1abc9c;
@@ -65,6 +66,7 @@ header .navbar-default {
   font-weight: 400;
   text-align: center;
 }
+/* Sezione Portfolio */
 .portfolio-title {
   font-size: 46px;
   color: #2c3e50;
@@ -81,6 +83,7 @@ header .navbar-default {
 .img-box {
   text-align: center;
 }
+/* Sezione About */
 #about {
   min-height: 500px;
   background-color: #1abc9c;
@@ -101,7 +104,7 @@ header .navbar-default {
   text-align: center;
   margin-bottom: 30px;
 }
-.button-download span {
+.button-download a {
   border: solid 2px white;
   border-radius: 5px;
   background-color: transparent;
@@ -111,26 +114,83 @@ header .navbar-default {
   padding: 20px;
   font-weight: 400;
   display: inline-block;
+  text-decoration: none;
 }
-/* Footer */
-footer {
-  background-color: red;
+.button-download a:hover {
+  color: black;
+  background-color: white;
 }
-
+/* Sezione Contatti */
+.contact-title {
+  font-size: 46px;
+  color: #2c3e50;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 50px;
+}
+#contatti {
+  padding-bottom: 50px;
+}
 #contatti [class*="col-"] {
   height: auto;
 }
-
-
-/* sezione contatti */
 #contatti .form-group input,
 #contatti .form-group textarea {
   border: none;
-  border-bottom: solid 1px #ccc;
-  background-color: pink;
+  border-radius: 0px;
+  border-bottom: solid 2px lightgray;
   box-shadow: none;
 }
-
 #contatti .btn-default {
-  color: green;
+  color: white;
+  background-color: #1abc9c;
+}
+
+/* Footer */
+.up-footer {
+  background-color: #38546b;
+  padding: 50px 0;
+}
+.down-footer {
+  background-color: #2b3e4e;
+  padding-top: 20px;
+}
+.social i {
+  color: white;
+  font-size: 48px;
+  color: white;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.around {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.location {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.address {
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.social {
+  font-size: 26px;
+  color: white;
+  text-align: center;
+}
+.copyright {
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  margin-bottom: 20px;
 }
