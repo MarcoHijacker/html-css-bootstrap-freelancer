@@ -13,6 +13,35 @@ header {
   background-color: #2c3e50;
 }
 
+/* Header */
+header .navbar-default .navbar-nav > li > a {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
+header .navbar-default .navbar-nav > li > a:hover {
+  color: #1abc9c;
+}
+header .navbar-default .navbar-brand {
+  font-size: 22px;
+  font-weight: 600;
+  color: white;
+}
+header .navbar-default .navbar-brand:hover {
+  color: white;
+}
+header .navbar-default {
+  border: none;
+  margin-top: 20px;
+}
+header .navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+  color: white;
+}
+header .navbar-default {
+  background-color: transparent;
+}
+
 /* Main */
 .jumbotron {
   height: 600px;
@@ -46,48 +75,26 @@ header {
   border-radius: 5px;
   margin: 20px 0;
 }
+#portfolio {
+  margin-bottom: 50px;
+}
 .img-box {
   text-align: center;
 }
-
+.about {
+  height: 500px;
+  background-color: #1abc9c;
+}
 
 /* Footer */
 footer {
   background-color: red;
-  /* height: 100px; */
 }
 
 #contatti [class*="col-"] {
-  height: auto;;
+  height: auto;
 }
 
-
-/* header */
-
-header .navbar-default .navbar-nav > li > a {
-  font-size: 18px;
-  font-weight: 600;
-  color: white;
-}
-
-header .navbar-default .navbar-brand {
-  font-size: 22px;
-  font-weight: 600;
-  color: white;
-}
-
-header .navbar-default {
-  border: none;
-  margin-top: 20px;
-}
-
-header .navbar-default .navbar-nav > li > a:focus,
-.navbar-default .navbar-nav > li > a:hover {
-  color: white;
-}
-header .navbar-default {
-  background-color: transparent;
-}
 
 /* sezione contatti */
 #contatti .form-group input,
