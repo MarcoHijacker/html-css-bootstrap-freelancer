@@ -47,6 +47,7 @@ header .navbar-default {
 .jumbotron {
   height: 600px;
   background-color: #1abc9c;
+  margin-bottom: 0;
 }
 #logo {
   text-align: center;
@@ -78,7 +79,7 @@ header .navbar-default {
   margin: 20px 0;
 }
 #portfolio {
-  margin-bottom: 50px;
+  padding: 50px 0;
 }
 .img-box {
   text-align: center;
